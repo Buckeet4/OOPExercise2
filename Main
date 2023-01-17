@@ -1,0 +1,13 @@
+public class Main { 
+         public static void main(String [] args){ 
+                 Motors motors; 
+                 Skygo skygo = new skygo("125.", 1, "4 gears"); 
+                 Rusi rusi = new rusi("150.", 1, "5 gears"); 
+                  
+                 motors = skygo; 
+                 System.out.println(motors.makesound() + " " + "My name is " + motors.getName()); 
+                  
+                 motors = rusi; 
+                 System.out.println(motors.makesound() + " " + "My name is " + motors.getName()); 
+         } 
+ }
